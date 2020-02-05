@@ -14,3 +14,10 @@ git push -u origin master
 
 # synchronize Local Repo with Github ( data from Github -> Local Repo)
 git pull
+
+# clone data from Github -> Local Repo
+git clone &link
+
+# configure for acc
+git config --global user.name = "$name"
+git config --global user.email = "$email"
